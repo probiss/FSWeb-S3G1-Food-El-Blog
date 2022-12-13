@@ -1,17 +1,16 @@
+*{
+  background-color: #faf4f9;
+}
 body {
-  background-color: #3C373B;
-  width: 605px;
+  padding: 0px;
+  margin:0px;
 }
 header {
-    color:white;
+    color:rgb(5, 0, 0);
     text-align:center;
     padding:5px;
 }
-.banner {
-  width: 590px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-}
+
 .ustmenu ul {
   list-style-type: none;
   overflow: hidden;
@@ -72,29 +71,25 @@ h2, h3, h4, h5, h6 {
   font-family: 'Gaegu', cursive;
   margin-bottom: 0;
   padding: 0 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 p {
 font-size: 16px;
 font-family: roboto;
 padding: 10px;
 line-height: 1.4;
-}
-.img1 {
-  width: 650px;
-  margin:auto;
-}
-
-.solakaydır {
-  float: left;
-  padding:0 10px 10px 0;
+margin: 0px;
 }
 
 img {
   border-radius: 10px;
-  width : 250px;
+  width : 100%;
 }
 
+.gray_background {
+  background-color: bisque;
+  padding: 40px 60px;
+}
 .content-row {
   display: flex;
 }
@@ -102,10 +97,15 @@ img {
 .content-row div {
   margin: 20px;
 }
-/*
+
 .container {
   margin: 0 auto;
-  width: 605px;
+  width: 750px;
+}
+
+.ortalama {
+  width: 60%;
+  display: inline-block;
 }
 .container header nav a {
   margin: 0 10px;
@@ -117,41 +117,39 @@ img {
   text-decoration: none;
   margin-bottom: 20px;
   background: #E79947;
-  
 }
-
 .container header nav a:hover {
-/*======= background property yaratın ve değeri white olsun.  Sonra, color property yaratın ve değerini yapın. 
 background-color: white;
 }
-*/
-
-/*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
+.hakkimizda {
   margin-top: 20px;
-*/
-
-.contact-section h2 {
-  padding: 0;
-  margin: 0 0 5px 0;
 }
-/*======= contact-section class'da address tag'i için aşağdıaki stilleri içeren bir selector yaratın:*/
+.contact-section {
+  border-bottom: 1px dashed white solid;
+  padding: 20px 0;
+}
+
+.aparatif_img {
+  width: 80%;
+  margin: 0 auto;
+  display:block;
+}
 .contact-section .adress {
   line-height: 2;
-  display: block;
-  font-style: italic;
-  margin-top: auto;
-
 }
 footer {
   width: 100%;
-  background: #241024;
-  text-align: center;
-  margin: 0 auto; 
+  background-color: #86048690;
+  border-top: 1px dashed white;
+}
+footer h2 {
+  background-color:#86048690 ;
 }
 
 footer .footer-content { 
   margin: 0 auto; 
-  width: 605px;
+  width: 750px;
+  background-color:#86048690 ;
 }
 
 footer .footer-content h3 {
@@ -163,18 +161,13 @@ footer .footer-content h3 {
 
 footer nav {
   display: flex;
-  text-align: center;
+  background-color:#86048690 ;
 }
-footer nav ul {
-  text-align: center;
-}
-footer nav ul li {
-  display: inline-block;
-}
-footer nav ul li a{
-  margin: 15px;
-  color: rgb(202, 198, 198);
+footer a {
+  margin:10px;
+  color:black;
   text-decoration: underline;
+  background-color:#86048690 ;
 }
 
 footer nav a:hover {
@@ -184,4 +177,5 @@ footer nav a:hover {
 footer .footer-content .copyright {
   padding: 20px 0;
   text-align: center;
+  background-color:#86048690 ;
 }
